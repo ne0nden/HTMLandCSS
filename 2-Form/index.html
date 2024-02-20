@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2-Form</title>
+</head>
+
+<body>
+  <main>
+    <div>
+      <form action="#">
+        <p>Регистрация</p>
+        <p>Уже есть аккаунт? <span><a href="#">Войти</a></span></p>
+        <div>
+          <input type="text" name="company" id="company" placeholder="Моя компания" required>
+          <!-- В макете опечатка: "моЙ компания" -->
+        </div>
+        <input type="text" name="name" id="name" placeholder="Имя" required>
+        <input type="text" name="surname" id="surname" placeholder="Фамилия" required>
+        <div>
+          <input type="email" name="e-mail" id="e-mail" placeholder="E-mail" required>
+        </div>
+        <button type="submit">Зарегистрироваться</button>
+        <div>
+          <input type="checkbox" name="agree" id="agree" required>
+          <label for="agree">Я прочитал и принимаю <span><a href="#">Условия
+                использования</a></span></label>
+        </div>
+      </form>
+    </div>
+  </main>
+</body>
+
+</html>
