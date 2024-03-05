@@ -61,6 +61,7 @@ input:focus {
 #company {
     font-weight: 600;
     background: #FFFFFF;
+    color: #999999
 }
 
 #name {
@@ -73,6 +74,11 @@ input:focus {
     width: 189px;
     font-style: italic;
     color: #999999;
+}
+
+#Arrow {
+    float: right;
+    text-align: right;
 }
 
 #e-mail {
