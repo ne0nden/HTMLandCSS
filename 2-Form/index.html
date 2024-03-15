@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2-Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&amp;display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <form action="#">
+            <h1>Регистрация</h1>
+            <p>Уже есть аккаунт? <span><a href="#">Войти</a></span></p>
+            <div id="Form">
+                <div>
+                    <input type="text" name="company" id="company" placeholder="Моя компания" required>
+                </div>
+                <div id="name_surname">
+                    <input type="text" name="name" id="name" placeholder="Имя" required>
+                    <input type="text" name="surname" id="surname" placeholder="Фамилия" required>
+                </div>
+                <div>
+                    <input type="email" name="e-mail" id="e-mail" placeholder="E-mail" required>
+                </div>
+                <button type="submit" id="submit">Зарегистрироваться <img src="./images/Arrow 1.svg" alt="стрелка"
+                        id="Arrow">
+                </button>
+                <div id="agree_div">
+                    <input type="checkbox" name="agree" id="agree" required>
+                    <label for="agree" id="agree_text">Я прочитал и принимаю <a href="#">Условия
+                            использования</a></label>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
