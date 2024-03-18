@@ -72,12 +72,14 @@ input:focus {
     width: 196px;
     font-style: italic;
     color: #999999;
+    border-radius: 5px 0 0 5px;
 }
 
 #surname {
     width: 196px;
     font-style: italic;
     color: #999999;
+    border-radius: 0 5px 5px 0;
 }
 
 #Arrow {
@@ -106,7 +108,7 @@ input:focus {
 #agree_div {
     width: 371px;
     height: 19px;
-    border-radius: 5;
+    border-radius: 5px;
     border: 1;
     display: flex;
     gap: 4;

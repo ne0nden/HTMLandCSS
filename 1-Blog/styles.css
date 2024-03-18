@@ -1,6 +1,7 @@
 * {
     color: #FFFFFF;
-    font-family: Roboto;
+    font-family: Roboto,
+        sans-serif;
     font-weight: 400;
 }
 
@@ -15,7 +16,7 @@ p {
     margin-right: 77px;
     font-size: 18px;
     height: 35px;
-    margin-top: 72px;
+    /* margin-top: 72px; */
 }
 
 .logo_div {
@@ -28,7 +29,6 @@ p {
 
 .logo>p {
     margin: 0;
-    font-family: Roboto;
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
@@ -43,15 +43,15 @@ body {
 }
 
 header {
-    margin: 0 0 80px 0;
+    margin: 80px 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 header a {
     font-size: 18px;
     text-decoration: none;
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     align-items: center;
@@ -65,7 +65,6 @@ nav ul {
     list-style-type: none;
     display: flex;
     padding: 0;
-    margin-top: 81px;
     align-items: center;
 }
 
@@ -81,7 +80,6 @@ ul li:nth-child(2) {
     height: 40px;
     position: relative;
     width: 224px;
-    margin-top: 71px;
     margin-left: auto;
 }
 
@@ -104,10 +102,13 @@ ul li:nth-child(2) {
     font-weight: 400;
 }
 
-
-
-#section1 p {
+#section1>p {
     margin: 0 0 14px 0;
+    opacity: 60%;
+}
+
+#section1 span {
+    margin: 0 12px;
 }
 
 #section1_logo>img {
@@ -130,7 +131,6 @@ ul li:nth-child(2) {
 #section1_logo_div>p {
     margin: 0;
     text-align: left;
-    font-family: Roboto;
     font-weight: 400;
     letter-spacing: 0em;
 }
@@ -168,7 +168,6 @@ h1 {
 }
 
 #section2>p {
-    font-family: Roboto;
     font-weight: 400;
     text-align: left;
     line-height: 32px;
@@ -186,4 +185,5 @@ h1 {
 
 footer {
     margin: 108px 0 77px;
+    opacity: 60%;
 }
